@@ -1,0 +1,7 @@
+.logout-button {
+  color: red !important;
+}
+.logout-img {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(97%) saturate(7489%)
+    hue-rotate(357deg) brightness(97%) contrast(105%);
+}
