@@ -70,6 +70,9 @@ const Home = () => {
           <button onClick={() => navigate('/changepassword')} className="btn btn-success" style={{ borderRadius: '8px', padding: '5px', fontWeight: 'bold', width: '300px' }}>
             <img src="chpassw.png" alt="chpass" width={25} /> Change Password
           </button><br />
+         <button onClick={() => handleLogout()} className="btn btn-primary" style={{ borderRadius: '8px', padding: '5px', fontWeight: 'bold', width: '300px' }}>
+            <img src="logout.png" alt="logout" width={25} /> Logout
+          </button><br />
           <button onClick={() => deleteAccount()} className="btn btn-danger" style={{ borderRadius: '8px', padding: '5px', fontWeight: 'bold', width: '300px' }}>
             <img src="deletew.png" alt="delete" width={25} /> Delete Account
           </button>
